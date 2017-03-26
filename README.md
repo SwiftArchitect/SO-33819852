@@ -1,9 +1,12 @@
 # Black background on transparent UITabBar
 
+![preview](https://i.stack.imgur.com/s0Dh5.png)
+
 ---
 
 ### Stack Overflow Question 33819852
-Xcode project & source code related to [Make a UITabBar transparent, translucent + blur ](http://stackoverflow.com/a/33887826/218152) anwser.
+
+Xcode project & source code related to [Make a UITabBar transparent, translucent + blur ](https://stackoverflow.com/questions/33819852/black-background-on-transparent-uitabbar/33887826#33887826) answer.
 
 ---
 
@@ -13,6 +16,6 @@ Xcode project & source code related to [Make a UITabBar transparent, translucent
 
 **References:**
 
-- SO-33819852 on [Stack Overflow](http://stackoverflow.com/questions/33819852/black-background-on-transparent-uitabbar)
+- Question [33819852](https://stackoverflow.com/questions/33819852) on Stack Overflow
 - This and other answers posted on [Swift Recipes](http://swiftarchitect.com/recipes/)
 
