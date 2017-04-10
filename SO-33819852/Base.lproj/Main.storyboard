@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mIB-lr-v2O">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mIB-lr-v2O">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="heU-tk-sdz">
             <objects>
-                <viewController id="Mx7-sb-3Er" customClass="ViewController" customModule="SO_33819852" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Mx7-sb-3Er" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SYj-Tz-ONI"/>
                         <viewControllerLayoutGuide type="bottom" id="hNQ-ly-eAA"/>
@@ -82,12 +82,10 @@
         <scene sceneID="x3i-7Y-jE6">
             <objects>
                 <tabBarController id="mIB-lr-v2O" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="clear" id="3cZ-KP-yUW" customClass="FrostyTabBar" customModule="SO_33819852" customModuleProvider="target">
+                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="clear" itemPositioning="fill" id="3cZ-KP-yUW" customClass="FrostyTabBar" customModule="SO_33819852" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="Mx7-sb-3Er" kind="relationship" relationship="viewControllers" id="Lj6-5J-WpM"/>
